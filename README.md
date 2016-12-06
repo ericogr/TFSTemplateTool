@@ -7,7 +7,7 @@ Visual tool to apply changes in TFS On Premise templates (batch mode)
 #Template selection
 ![alt tag](https://raw.githubusercontent.com/ericogr/TFSTemplateTool/master/docs/selecao_templates.png "Seleção de Templates")
 
-#Configuração
+#Settings
 ![alt tag](https://raw.githubusercontent.com/ericogr/TFSTemplateTool/master/docs/configuracao.png "Configuração")
 
 #Confirmation
