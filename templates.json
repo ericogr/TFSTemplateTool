@@ -1,0 +1,77 @@
+[
+  {
+    "Name": "Bug",
+    "Command": "\"{tools_folder}\\witadmin\" importwitd /collection:{tfs_url}/{tfs_collection_name} /p:\"{tfs_project_name}\" /f:\"{template_folder}\\bug.xml\""
+
+  },
+  {
+    
+    "Name": "User Story",
+    "Command": "\"{tools_folder}\\witadmin\" importwitd /collection:{tfs_url}/{tfs_collection_name} /p:\"{tfs_project_name}\" /f:\"{template_folder}\\userStory.xml\""
+  },
+  {
+    
+    "Name": "Bug Task",
+    "Command": "\"{tools_folder}\\witadmin\" importwitd /collection:{tfs_url}/{tfs_collection_name} /p:\"{tfs_project_name}\" /f:\"{template_folder}\\BugTask.xml\""
+  },
+  {
+    
+    "Name": "Merge",
+    "Command": "\"{tools_folder}\\witadmin\" importwitd /collection:{tfs_url}/{tfs_collection_name} /p:\"{tfs_project_name}\" /f:\"{template_folder}\\Merge.xml\""
+  },
+  {
+    
+    "Name": "Task",
+    "Command": "\"{tools_folder}\\witadmin\" importwitd /collection:{tfs_url}/{tfs_collection_name} /p:\"{tfs_project_name}\" /f:\"{template_folder}\\task.xml\""
+  },
+  {
+    
+    "Name": "Test Case",
+    "Command": "\"{tools_folder}\\witadmin\" importwitd /collection:{tfs_url}/{tfs_collection_name} /p:\"{tfs_project_name}\" /f:\"{template_folder}\\TestCase.xml\""
+  },
+  {
+    
+    "Name": "Feature",
+    "Command": "\"{tools_folder}\\witadmin\" importwitd /collection:{tfs_url}/{tfs_collection_name} /p:\"{tfs_project_name}\" /f:\"{template_folder}\\feature.xml\""
+  },
+  {
+    
+    "Name": "Code Review Request",
+    "Command": "\"{tools_folder}\\witadmin\" importwitd /collection:{tfs_url}/{tfs_collection_name} /p:\"{tfs_project_name}\" /f:\"{template_folder}\\CodeReviewRequest.xml\""
+  },
+  {
+    
+    "Name": "Code Review Response",
+    "Command": "\"{tools_folder}\\witadmin\" importwitd /collection:{tfs_url}/{tfs_collection_name} /p:\"{tfs_project_name}\" /f:\"{template_folder}\\CodeReviewResponse.xml\""
+  },
+  {
+    
+    "Name": "Feedback Request",
+    "Command": "\"{tools_folder}\\witadmin\" importwitd /collection:{tfs_url}/{tfs_collection_name} /p:\"{tfs_project_name}\" /f:\"{template_folder}\\FeedbackRequest.xml\""
+  },
+  {
+    
+    "Name": "Feedback Response",
+    "Command": "\"{tools_folder}\\witadmin\" importwitd /collection:{tfs_url}/{tfs_collection_name} /p:\"{tfs_project_name}\" /f:\"{template_folder}\\FeedbackResponse.xml\""
+  },
+  {
+    
+    "Name": "Issue",
+    "Command": "\"{tools_folder}\\witadmin\" importwitd /collection:{tfs_url}/{tfs_collection_name} /p:\"{tfs_project_name}\" /f:\"{template_folder}\\Issue.xml\""
+  },
+  {
+    
+    "Name": "Shared Step",
+    "Command": "\"{tools_folder}\\witadmin\" importwitd /collection:{tfs_url}/{tfs_collection_name} /p:\"{tfs_project_name}\" /f:\"{template_folder}\\SharedStep.xml\""
+  },
+  {
+    
+    "Name": "Process Configuration",
+    "Command": "\"{tools_folder}\\witadmin\" importprocessconfig /collection:{tfs_url}/{tfs_collection_name} /p:\"{tfs_project_name}\" /f:\"{template_folder}\\ProcessConfiguration.xml\""
+  },
+  {
+    
+    "Name": "File Mapping",
+    "Command": "\"{tools_folder}\\TFSFieldMapping\" upload /collection:{tfs_url}/{tfs_collection_name} /teamproject:\"{tfs_project_name}\" /mappingfile:\"{template_folder}\\FileMapping.xml\""
+  }
+]
