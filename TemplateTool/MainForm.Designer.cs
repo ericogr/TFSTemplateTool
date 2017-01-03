@@ -151,7 +151,7 @@
             this.textBoxUrl.Name = "textBoxUrl";
             this.textBoxUrl.Size = new System.Drawing.Size(583, 20);
             this.textBoxUrl.TabIndex = 6;
-            this.textBoxUrl.Text = "http://gbjndsrv014:8080/tfs";
+            this.textBoxUrl.Text = "http://localhost:8080/tfs";
             // 
             // labelUrl
             // 
