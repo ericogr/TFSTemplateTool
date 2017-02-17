@@ -7,27 +7,27 @@
   {
     
     "Name": "User Story",
-    "Command": "\"{tools_folder}\\witadmin\" importwitd /collection:{tfs_url}/{tfs_collection_name} /p:\"{tfs_project_name}\" /f:\"{template_folder}\\WorkItem Tracking\\TypeDefinitions\\WorkItem Tracking\\TypeDefinitions\\userStory.xml\""
+    "Command": "\"{tools_folder}\\witadmin\" importwitd /collection:{tfs_url}/{tfs_collection_name} /p:\"{tfs_project_name}\" /f:\"{template_folder}\\WorkItem Tracking\\TypeDefinitions\\userStory.xml\""
   },
   {
     
     "Name": "Bug Task",
-    "Command": "\"{tools_folder}\\witadmin\" importwitd /collection:{tfs_url}/{tfs_collection_name} /p:\"{tfs_project_name}\" /f:\"{template_folder}\\WorkItem Tracking\\TypeDefinitions\\WorkItem Tracking\\TypeDefinitions\\BugTask.xml\""
+    "Command": "\"{tools_folder}\\witadmin\" importwitd /collection:{tfs_url}/{tfs_collection_name} /p:\"{tfs_project_name}\" /f:\"{template_folder}\\WorkItem Tracking\\TypeDefinitions\\BugTask.xml\""
   },
   {
     
     "Name": "Merge",
-    "Command": "\"{tools_folder}\\witadmin\" importwitd /collection:{tfs_url}/{tfs_collection_name} /p:\"{tfs_project_name}\" /f:\"{template_folder}\\WorkItem Tracking\\TypeDefinitions\\WorkItem Tracking\\TypeDefinitions\\Merge.xml\""
+    "Command": "\"{tools_folder}\\witadmin\" importwitd /collection:{tfs_url}/{tfs_collection_name} /p:\"{tfs_project_name}\" /f:\"{template_folder}\\WorkItem Tracking\\TypeDefinitions\\Merge.xml\""
   },
   {
     
     "Name": "Task",
-    "Command": "\"{tools_folder}\\witadmin\" importwitd /collection:{tfs_url}/{tfs_collection_name} /p:\"{tfs_project_name}\" /f:\"{template_folder}\\WorkItem Tracking\\TypeDefinitions\\WorkItem Tracking\\TypeDefinitions\\task.xml\""
+    "Command": "\"{tools_folder}\\witadmin\" importwitd /collection:{tfs_url}/{tfs_collection_name} /p:\"{tfs_project_name}\" /f:\"{template_folder}\\WorkItem Tracking\\TypeDefinitions\\task.xml\""
   },
   {
 
     "Name": "Test Case",
-    "Command": "\"{tools_folder}\\witadmin\" importwitd /collection:{tfs_url}/{tfs_collection_name} /p:\"{tfs_project_name}\" /f:\"{template_folder}\\WorkItem Tracking\\TypeDefinitions\\WorkItem Tracking\\TypeDefinitions\\TestCase.xml\""
+    "Command": "\"{tools_folder}\\witadmin\" importwitd /collection:{tfs_url}/{tfs_collection_name} /p:\"{tfs_project_name}\" /f:\"{template_folder}\\WorkItem Tracking\\TypeDefinitions\\TestCase.xml\""
   },
   {
     
@@ -70,6 +70,11 @@
     "Command": "\"{tools_folder}\\witadmin\" importwitd /collection:{tfs_url}/{tfs_collection_name} /p:\"{tfs_project_name}\" /f:\"{template_folder}\\WorkItem Tracking\\TypeDefinitions\\SharedStep.xml\""
   },
   {
+
+    "Name": "Categories",
+    "Command": "\"{tools_folder}\\witadmin\" importcategories /collection:{tfs_url}/{tfs_collection_name} /p:\"{tfs_project_name}\" /f:\"{template_folder}\\WorkItem Tracking\\Categories.xml\""
+  },
+  {
     
     "Name": "Process Configuration",
     "Command": "\"{tools_folder}\\witadmin\" importprocessconfig /collection:{tfs_url}/{tfs_collection_name} /p:\"{tfs_project_name}\" /f:\"{template_folder}\\WorkItem Tracking\\Process\\ProcessConfiguration.xml\""
@@ -78,10 +83,5 @@
     
     "Name": "File Mapping",
     "Command": "\"{tools_folder}\\TFSFieldMapping\" upload /collection:{tfs_url}/{tfs_collection_name} /teamproject:\"{tfs_project_name}\" /mappingfile:\"{template_folder}\\Classification\\FileMapping.xml\""
-  },
-  {
-
-    "Name": "Categories",
-    "Command": "\"{tools_folder}\\witadmin\" importcategories /collection:{tfs_url}/{tfs_collection_name} /p:\"{tfs_project_name}\" /f:\"{template_folder}\\WorkItem Tracking\\Categories.xml\""
   }
 ]
